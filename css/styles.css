@@ -1,0 +1,162 @@
+:root {
+  --background: #ffffff;
+  --background-grey: #2f303a;
+  --gray: #757575;
+  --blue: #2196f3;
+  --gray-button: #f5f4fa;
+  --black: #212121;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--gray);
+  letter-spacing: 0.03em;
+}
+li {
+  list-style-type: none;
+}
+/*=======heroe======*/
+.heroe {
+  background: var(--background-grey);
+  color: var(--background);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/*=======end heroe========*/
+/*======buttons==========*/
+.button-heroe {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: var(--blue);
+}
+.button-heroe {
+  cursor: pointer;
+}
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+/*======buttons==========*/
+/* ======WebStudio====== */
+.logo {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+}
+.footer > .logo-footer {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--background);
+}
+.accent {
+  color: #2196f3;
+}
+/* ====== end WebStudio====== */
+/*=====navigation=====*/
+.nav-list :hover,
+.nav-list :focus {
+  color: #2196f3;
+}
+.nav-adres {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.nav-adres-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--gray);
+  text-decoration: none;
+}
+
+/*===== end nav======*/
+
+/*=====прнеимущества компании===*/
+.description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #212121;
+}
+.desc {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/*=====прнеимущества компании===*/
+/*======photo of works======*/
+.titel-list {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: #212121;
+}
+/*======photo of works======*/
+/*=====список команды======*/
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: #212121;
+}
+div .team-names-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.12;
+  text-align: center;
+  color: #212121;
+}
+.team-list-names {
+  text-align: center;
+}
+/*=====список команды======*/
+/*======footer========*/
+footer {
+  background: #2f303a;
+  color: #ffffff;
+}
+.nav-adres-footer {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*=====foooter ended=======*/
+/*=====Портфолио====*/
+.portfolio-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black);
+}
+.porfolio {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
