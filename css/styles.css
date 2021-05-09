@@ -8,6 +8,9 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
   color: var(--gray);
   letter-spacing: 0.03em;
 }
@@ -15,8 +18,7 @@ li {
   list-style-type: none;
 }
 /*=======heroe======*/
-.heroe {
-  background: var(--background-grey);
+h1 {
   color: var(--background);
   font-weight: 900;
   font-size: 44px;
@@ -24,6 +26,10 @@ li {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+.heroe {
+  background: var(--background-grey);
+  text-align: center;
 }
 /*=======end heroe========*/
 /*======buttons==========*/
@@ -88,7 +94,12 @@ li {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.current {
+  color: var(--blue);
   text-decoration: none;
 }
 .nav-adres-contact {
@@ -102,7 +113,7 @@ li {
 
 /*===== end nav======*/
 
-/*=====прнеимущества компании===*/
+/*=====преимущества компании===*/
 .description {
   font-weight: 700;
   font-size: 14px;
@@ -114,7 +125,7 @@ li {
   font-size: 14px;
   line-height: 1.71;
 }
-/*=====прнеимущества компании===*/
+/*=====преимущества компании===*/
 /*======photo of works======*/
 .titel-list {
   font-weight: 700;
@@ -154,6 +165,9 @@ footer {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
+.address {
+  font-style: normal;
+}
 /*=====foooter ended=======*/
 /*=====Портфолио====*/
 .portfolio-name {
@@ -163,7 +177,7 @@ footer {
   letter-spacing: 0.06em;
   color: var(--black);
 }
-.porfolio {
+.portfolio {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
